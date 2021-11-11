@@ -1577,7 +1577,7 @@ body.lock {
 
   .aesthetic__inner {
     background-image: url("../images/3/MaskGroup.png");
-    background-position: 110px -60px;
+    background-position: 100% -60px;
     background-size: auto;
     padding: 77px 22px 49px;
   }
@@ -1615,7 +1615,7 @@ body.lock {
   .pluses {
     display: block;
     max-width: 352px;
-    margin-left: 22px;
+    margin: 0 auto;
     margin-bottom: 39px;
   }
 
