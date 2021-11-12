@@ -48,13 +48,13 @@
 }
 
 .header__logo {
-  margin-top: 10px;
+  margin-top: 11px;
   margin-right: 42.5px;
 }
 
 .header__places {
-  margin-top: 10px;
-  margin-right: 40.5px;
+  margin-top: 11px;
+  margin-right: 43.5px;
 }
 
 .header__place span {
@@ -64,6 +64,10 @@
   line-height: 24px;
   color: #656565;
   margin-left: 11px;
+}
+
+.header__place + .header__place {
+  margin-top: 15px;
 }
 
 .header__sn {
@@ -85,7 +89,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 19px;
-  margin-right: 107px;
+  margin-right: 117px;
 }
 
 .header__call a {
@@ -224,11 +228,11 @@
 }
 
 .menu__icon span:before {
-  top: 6px;
+  top: 9px;
 }
 
 .menu__icon span:after {
-  bottom: 6px;
+  bottom: 9px;
 }
 
 .menu__text {
@@ -265,7 +269,7 @@
 }
 
 .footer__inner {
-  padding: 26px 28px;
+  padding: 26px 60px 26px 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,6 +287,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 44px;
+  margin-left: 60px;
 }
 
 .footer__info div {
@@ -327,7 +332,11 @@
 }
 
 .footer__sn a + a {
-  margin-left: 18.4px;
+  margin-left: 14px;
+}
+
+.footer .footer-sn {
+  margin-left: 60px;
 }
 
 .footer .footer-sn__mobile {
@@ -343,6 +352,7 @@
 }
 
 .footer__rights {
+  margin-left: 60px;
   font-family: Montserrat;
   font-weight: normal;
   font-size: 24px;
@@ -351,6 +361,7 @@
 }
 
 .footer__menu {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +384,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
-  margin-bottom: 41px;
+  margin-bottom: 45px;
 }
 
 .footer__list a {
@@ -387,7 +398,7 @@
 }
 
 .footer__list a + a {
-  margin-top: 22.3px;
+  margin-top: 28px;
 }
 
 .footer__list + .footer__list {
@@ -395,7 +406,7 @@
 }
 
 .footer__contact {
-  margin-left: 52.5px;
+  margin-left: 51px;
 }
 
 .footer__contact > div {
@@ -405,7 +416,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
-  margin-bottom: 27px;
+  margin-bottom: 35px;
   margin-left: 20px;
 }
 
@@ -421,7 +432,9 @@
 }
 
 .footer__contact form input {
-  margin: 18px 0 17px 24.75px;
+  max-width: 167px;
+  border-radius: 141px;
+  padding: 21px 0 18px 24.75px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -479,6 +492,7 @@
   width: 100%;
   padding-bottom: 31px;
   border-bottom: 0.75px solid #8A8C8F;
+  margin-left: 16px;
   margin-bottom: 24px;
 }
 
@@ -490,7 +504,7 @@
 }
 
 .footer__navigation a + a {
-  margin-left: 16px;
+  margin-left: 23px;
 }
 
 .wrapper {
@@ -609,7 +623,6 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: 400;
 }
 
 body._lock {
@@ -705,7 +718,7 @@ body.lock {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 124px 0 39px;
+  padding: 124px 20px 53px;
   max-width: 1282px;
   margin: 0 auto;
   background-image: url("../images/3/Component39.png");
@@ -836,7 +849,7 @@ body.lock {
 .medical__form {
   -ms-flex-item-align: center;
       align-self: center;
-  margin-bottom: 48px;
+  margin-bottom: 55px;
 }
 
 .medical__select {
@@ -895,7 +908,7 @@ body.lock {
   line-height: 37.12px;
   color: #000000;
   position: relative;
-  padding-left: 30px;
+  padding-left: 27px;
 }
 
 .medical__cities li:before {
@@ -905,7 +918,7 @@ body.lock {
 }
 
 .medical__cities li + li {
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 .medical__link {
@@ -1101,7 +1114,7 @@ body.lock {
 
 .questions__inner {
   max-width: 1171px;
-  margin: 181px auto 130px;
+  margin: 211px auto 130px;
   padding: 53px 64px 110px 64px;
   background-image: url("../images/3/Rectangle1682.png");
   background-repeat: no-repeat;
@@ -1362,6 +1375,10 @@ body.lock {
     display: none;
   }
 
+  .footer .footer-sn {
+    margin-left: 16px;
+  }
+
   .footer .footer-sn__main {
     display: none;
   }
@@ -1592,7 +1609,7 @@ body.lock {
     font-size: 24px;
     line-height: 29px;
     max-width: 270px;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
   }
 
   .aesthetic__text {
@@ -1607,7 +1624,7 @@ body.lock {
   }
 
   .aesthetic__button {
-    padding: 8px 32px;
+    padding: 8px 16px;
     font-size: 16px;
     line-height: 19px;
   }
@@ -1700,7 +1717,7 @@ body.lock {
 
   .wishes__main .wishes__item:nth-child(1) {
     width: 100%;
-    padding: 24px 0 24px 0;
+    padding: 24px 24px 24px 0;
   }
 
   .wishes__main .wishes__item:nth-child(2) {
@@ -1747,7 +1764,7 @@ body.lock {
   .techniques__title {
     font-size: 24px;
     line-height: 29px;
-    margin: 0 66px;
+    margin: 0 66px 20px;
   }
 
   .techniques__main {
@@ -1792,13 +1809,13 @@ body.lock {
   .questions__title {
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   .questions__text {
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
   }
 
   .questions__write div {
@@ -1912,6 +1929,16 @@ body.lock {
   }
 }
 
+@media (max-width: 480px) {
+  .aesthetic__inner {
+    background-position: 140% -60px;
+  }
+
+  .techniques .container {
+    padding: 0;
+  }
+}
+
 @media (max-width: 420px) {
   .techniques__title {
     margin: 0 22px;
@@ -1925,6 +1952,10 @@ body.lock {
 }
 
 @media (max-width: 400px) {
+  .footer__navigation a + a {
+    margin-left: 12px;
+  }
+
   .pluses__inner {
     grid-template-columns: repeat(1, 1fr);
   }

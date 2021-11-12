@@ -3,7 +3,7 @@
 }
 
 .footer__inner {
-  padding: 26px 28px;
+  padding: 26px 60px 26px 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,6 +21,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 44px;
+  margin-left: 60px;
 }
 
 .footer__info div {
@@ -65,7 +66,11 @@
 }
 
 .footer__sn a + a {
-  margin-left: 18.4px;
+  margin-left: 14px;
+}
+
+.footer .footer-sn {
+  margin-left: 60px;
 }
 
 .footer .footer-sn__mobile {
@@ -81,6 +86,7 @@
 }
 
 .footer__rights {
+  margin-left: 60px;
   font-family: Montserrat;
   font-weight: normal;
   font-size: 24px;
@@ -89,6 +95,7 @@
 }
 
 .footer__menu {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +118,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
-  margin-bottom: 41px;
+  margin-bottom: 45px;
 }
 
 .footer__list a {
@@ -125,7 +132,7 @@
 }
 
 .footer__list a + a {
-  margin-top: 22.3px;
+  margin-top: 28px;
 }
 
 .footer__list + .footer__list {
@@ -133,7 +140,7 @@
 }
 
 .footer__contact {
-  margin-left: 52.5px;
+  margin-left: 51px;
 }
 
 .footer__contact > div {
@@ -143,7 +150,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
-  margin-bottom: 27px;
+  margin-bottom: 35px;
   margin-left: 20px;
 }
 
@@ -159,7 +166,9 @@
 }
 
 .footer__contact form input {
-  margin: 18px 0 17px 24.75px;
+  max-width: 167px;
+  border-radius: 141px;
+  padding: 21px 0 18px 24.75px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -217,6 +226,7 @@
   width: 100%;
   padding-bottom: 31px;
   border-bottom: 0.75px solid #8A8C8F;
+  margin-left: 16px;
   margin-bottom: 24px;
 }
 
@@ -228,7 +238,7 @@
 }
 
 .footer__navigation a + a {
-  margin-left: 16px;
+  margin-left: 23px;
 }
 
 @media (max-width: 1200px) {
@@ -246,6 +256,10 @@
 
   .footer__info {
     display: none;
+  }
+
+  .footer .footer-sn {
+    margin-left: 16px;
   }
 
   .footer .footer-sn__main {
