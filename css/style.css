@@ -802,10 +802,6 @@ body.lock {
   grid-row-gap: 56px;
 }
 
-.articles__item > img {
-  margin-bottom: 16px;
-}
-
 .articles__item > h4 {
   font-family: Gilroy;
   font-weight: bold;
@@ -814,6 +810,10 @@ body.lock {
   color: #000000;
   margin-bottom: 16px;
   max-width: 224px;
+}
+
+.articles__image {
+  margin-bottom: 16px;
 }
 
 .articles__image_mobile {
@@ -1446,7 +1446,7 @@ body.lock {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .articles__item > img {
+  .articles__image {
     display: none;
   }
 
@@ -1914,6 +1914,10 @@ body.lock {
 }
 
 @media (max-width: 400px) {
+  .footer__navigation a + a {
+    margin-left: 12px;
+  }
+
   .discount {
     font-size: 12px;
     line-height: 14px;
