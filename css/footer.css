@@ -1,15 +1,16 @@
 .footer {
   background: #05164D;
+  padding: 16px 20px;
 }
 
 .footer .container {
   max-width: 100%;
+  padding: 0;
 }
 
 .footer__inner {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 26px 20px 26px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,15 +20,14 @@
 }
 
 .footer__logo {
-  margin-bottom: 27px;
+  margin-bottom: 8px;
 }
 
 .footer__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 44px;
-  margin-left: 45px;
+  margin-bottom: 8px;
 }
 
 .footer__info div {
@@ -41,8 +41,8 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 20px;
   color: #C4C4C4;
 }
 
@@ -52,19 +52,19 @@
 }
 
 .footer__info div p + p {
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .footer__info div span + span {
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .footer__info div + div {
-  margin-left: 26px;
+  margin-left: 30px;
 }
 
 .footer__sn {
-  margin-bottom: 40px;
+  margin-bottom: 8px;
 }
 
 .footer__sn a {
@@ -72,11 +72,7 @@
 }
 
 .footer__sn a + a {
-  margin-left: 14px;
-}
-
-.footer .footer-sn {
-  margin-left: 45px;
+  margin-left: 26px;
 }
 
 .footer .footer-sn__mobile {
@@ -92,11 +88,10 @@
 }
 
 .footer__rights {
-  margin-left: 45px;
   font-family: Montserrat;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
 }
 
@@ -121,10 +116,10 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
-  margin-bottom: 35px;
+  margin-bottom: 8px;
 }
 
 .footer__list a {
@@ -132,17 +127,17 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 20px;
   color: #C4C4C4;
 }
 
 .footer__list a + a {
-  margin-top: 24px;
+  margin-top: 8px;
 }
 
 .footer__list + .footer__list {
-  margin-left: 80px;
+  margin-left: 128px;
 }
 
 .footer__contact {
@@ -153,11 +148,10 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FFFFFF;
-  margin-bottom: 35px;
-  margin-left: 20px;
+  margin-bottom: 16px;
 }
 
 .footer__contact form {
@@ -172,9 +166,9 @@
 }
 
 .footer__contact form input {
-  max-width: 167px;
+  max-width: 192px;
   border-radius: 141px;
-  padding: 21px 0 18px 24.75px;
+  padding: 13px 0 12.2px 24.75px;
   font-family: Montserrat;
   font-weight: normal;
   font-size: 16px;
@@ -218,13 +212,11 @@
 .footer__contact form button {
   background: #CBD0FF;
   border-radius: 0px 33.5px 33.5px 0px;
-  padding-right: 19px;
-  padding-left: 11.5px;
+  padding: 13px 19px 10px 11.5px;
 }
 
 .footer__navigation {
   display: none;
-  width: 100%;
   padding-bottom: 31px;
   border-bottom: 0.75px solid #8A8C8F;
   margin-left: 16px;
@@ -245,6 +237,7 @@
 @media (max-width: 1100px) {
   .footer {
     background: #11111A;
+    padding: 25px 16.6px;
   }
 
   .footer__main {
@@ -253,10 +246,6 @@
 
   .footer__info {
     display: none;
-  }
-
-  .footer .footer-sn {
-    margin-left: 16px;
   }
 
   .footer .footer-sn__main {
@@ -271,6 +260,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 16px;
   }
 
   .footer__rights {
@@ -291,12 +281,7 @@
 
   .footer__navigation {
     display: block;
-  }
-}
-
-@media (max-width: 1024px) {
-  .footer__inner {
-    padding: 25px 17px 15px;
+    max-width: 100%;
   }
 }
 
